@@ -1,0 +1,242 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding :0;
+}
+
+/*CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+/* Navigationbar */
+ #navbar{
+       display: flex;
+        align-items: center;
+ }
+ #navbar::before{
+    content: " ";
+    background-color:white;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+  }
+ /* Navigation bar: logo and image */
+ #logo{
+   
+   /* width: 0px; */
+    margin: 0px -4px;
+ }
+ #logo img{
+    height: 34px;
+    margin: 22px 43px;
+ }
+ /* Navigation Bar: List styling */
+ #navbar{
+    position: relative;
+ }
+ #navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai',cursive;
+ }
+
+ #navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color:black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration:underline;
+    font-weight: bold;
+    
+ }
+ #navbar ul li a:hover{
+    color: white;
+    background-color: black;
+    
+
+ }
+ /* home section */
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 560px;
+    justify-content: center;
+    align-items: center;
+ }
+ #home::before{
+        content: "";
+        background:url('../img/BG1.jpg') no-repeat center center/cover;
+        position:absolute;
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        opacity: 0.89;
+      }
+#home h1{
+    text-align: center;
+    font-family: 'Bree Serif' , serif;
+}
+#home p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Bree Serif' , serif;
+}
+/* services section */
+#services{
+    margin: 34px;
+    display:flex;
+
+}
+#services  .box{
+    border:2px solid brown;
+    padding:34px;
+    margin: 2px;
+    border-radius: 20px;
+    background-color: rgb(224, 224, 222);
+}
+#services  .box img{
+    height: 160px;
+    margin:auto;
+    display: block;
+}
+/* client section */
+#client-section{
+    height: 344px;
+    position: relative;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../img/BG.jpg');
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    opacity:0.2;
+    
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding:14px;
+    margin: 2px;
+    border-radius: 20px;
+}
+#clients img{
+    height:100px;
+}
+/* space */
+#space{
+    margin: 24px;
+    display:flex;
+}
+/* contact section */
+#contact{
+    position:relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('../img/contact.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    opacity:0.7;
+}
+#contact-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width:100;
+    padding: 0.5rem;
+    border-radius: 9px;
+}
+#contact-box form{
+    width:10%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Bree Serif' , serif;
+    
+}
+#spacing{
+    margin: 24px;
+    display:flex;
+}
+
+#feedback{
+    justify-content: center;
+    align-items: center;
+    content:"";
+    position:static;
+    background: url('../img/namaste.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+    z-index:-1;
+    opacity:0.7; 
+ }
+/* #feedback::before{
+   
+   
+} */
+
+footer{
+    position:static;
+     /* left: 0;
+    bottom: 0;  */
+     /* width: 100%;  */
+     background: rgb(66, 41, 41);
+    color: white; 
+    padding: 9px 13px; 
+    /* margin-left: -15px;
+    margin-right: -15px; */
+}
+
+/* utility classes */
+.h-primary{
+    font-size: 2.8rem;
+    padding:12px;
+    font-family: 'Bree Serif' , serif;
+}
+.h-secondary{
+        font-size: 1.5rem;
+        padding:12px;
+        font-family: 'Bree Serif' , serif;
+}
+.btn{
+    padding: 6px 20px;
+    border:2px solid white;
+    background-color: brown;
+    color: white;
+    margin:17px;
+    font-size: 1.5rem;
+    border-radius: 12px;
+    border-color:blanchedalmond;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.nehal{
+    text-align: center;
+}
+.nehal::after, .row::after {
+    
+        content: "";
+        clear: both;
+        display: table;
+      }
