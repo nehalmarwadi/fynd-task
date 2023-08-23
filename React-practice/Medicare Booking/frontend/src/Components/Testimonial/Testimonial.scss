@@ -1,0 +1,48 @@
+.testimonial-div {
+  margin-top: 30px;
+}
+
+.custom-testi {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  border-radius: 12px;
+}
+.image-testi {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+.heading-testi {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #181a1e;
+}
+
+.div-testi{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.five-star{
+    color: #FEB60D;
+    width: 18px;
+    height: 20px;
+}
+
+.para-testi{
+    font-size: 16px;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #4E545F;
+
+}
+@media (min-width: 1024px) {
+  .testimonial-div {
+    margin-top: 55px;
+  }
+}

@@ -1,0 +1,69 @@
+.social-icons:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  width: 1rem;
+  height: 1.25rem;
+}
+
+.footer-custom {
+  padding-bottom: 4rem;
+  padding-top: 2.5rem;
+}
+.div-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.para-footer {
+  font-size: 16px;
+  list-style: 28px;
+  font-weight: 400;
+  color: #4e545f;
+  margin-top: 1rem;
+}
+.saare-logos {
+  margin-bottom: 16px;
+  gap: 12px;
+  align-items: center;
+  display: flex;
+}
+.style-footer {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #181a1e;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.style-footer:hover {
+  background-color: #0067ff;
+  border-style: none;
+}
+.quick-links {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  --tw-text-opacity: 1;
+  color: rgb(24 26 30 / var(--tw-text-opacity));
+  // text-decoration: none;
+}
+
+.path {
+  margin-bottom: 16px;
+}
+.style-path {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #4e545f;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .div-footer {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,145 @@
+.photop {
+  padding: 0.75rem;
+}
+
+.photo {
+  width: 100%;
+}
+
+.heading-dc {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.dc-div {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.special {
+  background-color: #ccf0f3;
+  color: #01b5c5;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 12px;
+  line-height: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.star {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.star-icon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #181a1e;
+}
+.rating {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e545f;
+}
+
+.total {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.total {
+  margin-top: 20px;
+}
+.total-patients {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #4e545f;
+}
+.hospital {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #4e545f;
+}
+
+.same {
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  border: 1px solid #181a1e;
+//   margin-top: 30px;
+//   margin-left: auto;
+//   margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.same:hover {
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 103 255 / var(--tw-bg-opacity));
+}
+
+.arrow:hover {
+  width: 1.5rem;
+  height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .photop {
+    padding: 1.25rem;
+  }
+
+  .dc-div {
+    margin-top: 1rem /* 16px */;
+  }
+
+  .special {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .star-icon {
+    line-height: 28px;
+    font-size: 16px;
+  }
+  .rating {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .total {
+    margin-top: 20px;
+  }
+  .total-patients {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .heading-dc {
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+}

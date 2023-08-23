@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.imageA {
+  position: relative;
+  width: 75%;
+  z-index: 10;
+  order: 2;
+}
+ 
+.cardImg { 
+  position: absolute;
+  z-index: 20;
+  right: 30%;
+  bottom: 4px;
+  width: 200px;
+}
+
+.wrap{
+    width: 100%;
+    order: 1;
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    gap: 130px;
+    flex-direction: row;
+  }
+  .imageA {
+    width: 50%;
+    order: 1;
+  }
+  .CardImg {
+    right: 22%;
+  }
+  .wrap{
+    width: 50%;
+    order: 2;
+}
+}
+@media (min-width: 1280px) {
+  .wrapper {
+    gap: 0px;
+  }
+  .imageA {
+    width: 770px;
+  }
+  .wrap{
+    width: 670px;
+}
+}
+
+@media (min-width: 768px) {
+  .CardImg {
+    right: -7%;
+    width: 300px;
+  }
+}

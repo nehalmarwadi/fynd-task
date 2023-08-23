@@ -1,0 +1,71 @@
+.service-card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.heading-serviceCard {
+  font-size: 26px;
+  line-height: 2.25rem;
+  color: #181a1e;
+  font-weight: 700;
+}
+.para-serviceCard {
+  font-size: 16px;
+  line-height: 1.75rem;
+  font-weight: 400;
+  color: #4e545f;
+  margin-top: 1rem;
+}
+
+.div-serviceCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.same {
+  width: 44px;
+  height: 44px;
+  border-radius: 9999px;
+  border: 1px solid #181a1e;
+  margin-top: 6px;
+  // extra mt30px to 6px
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.same:hover {
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 103 255 / var(--tw-bg-opacity));
+}
+
+.arrow:hover {
+  width: 1.5rem;
+  height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.span-serviceCard{
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .service-card {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}

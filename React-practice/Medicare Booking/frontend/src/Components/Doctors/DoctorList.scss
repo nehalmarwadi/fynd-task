@@ -1,0 +1,19 @@
+.doctor-list{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.25rem;
+    margin-top: 30px;
+    // border: 1px solid black;
+}
+
+@media (min-width: 640px) {
+    .doctor-list {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media (min-width: 1024px) {
+    .doctor-list {
+        gap: 30px;
+        margin-top: 55px;
+    }
+}

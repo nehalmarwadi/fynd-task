@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  align-items: center; 
+}
+
+.custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 2.7rem;
+  align-items: center;
+  list-style: none;
+}
+
+.classOne {
+  color: #0067ff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.classTwo {
+  color: #4e545f;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.menu-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  .btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    height: 44px;
+    border-radius: 50px;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.user-image {
+  width: 35px;
+  height: 35px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+  border-radius: 9999px;
+}
+
+.hidden {
+  display: none;
+}
+
+.sidebarlogo {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.profile-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .hidden {
+    display: flex;
+    width: 35px;
+    cursor: pointer;
+  }
+}

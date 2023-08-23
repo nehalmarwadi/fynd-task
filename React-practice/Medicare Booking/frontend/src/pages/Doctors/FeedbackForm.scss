@@ -1,0 +1,33 @@
+.heading-FF{
+    --tw-text-opacity: 1;
+    color: rgb(24 26 30 / var(--tw-text-opacity));
+    font-size: 16px;
+    line-height: 1.5rem/* 24px */;
+    font-weight: 600;
+    margin-bottom: 1rem/* 16px */;
+
+}
+
+.div-ff{
+    margin-top: 30px;
+}
+.heading3-ff{
+    --tw-text-opacity: 1;
+    color: rgb(24 26 30 / var(--tw-text-opacity));
+    font-size: 16px;
+    line-height: 1.5rem/* 24px */;
+    font-weight: 600;
+    margin-bottom: 1rem/* 16px */;
+    margin-top: 0px;
+}
+.msg-box{
+    border: 1px solid #0066ff34;
+    outline-style: solid;
+    outline-color: #0067FF;
+    border-radius: 0.375rem/* 6px */;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+    padding-left: 0.5rem/* 8px */;
+    padding-right: 0.5rem/* 8px */;
+    width: 100%;
+}

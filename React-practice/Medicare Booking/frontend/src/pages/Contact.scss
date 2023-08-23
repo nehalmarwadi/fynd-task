@@ -1,0 +1,43 @@
+.section-contact{
+ padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 768px;
+}
+
+.heading-contact{
+    text-align: center;
+}
+.text_para{
+    margin-bottom: 2rem/* 32px */; 
+    font-weight: 300; 
+    text-align: center;
+}
+
+.form-contact{
+    --tw-space-y-reverse: 0;
+    margin-top: calc(2rem/* 32px */ * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(2rem/* 32px */ * var(--tw-space-y-reverse));
+}
+
+.form_input {
+    margin-top: 0.25rem/* 4px */;
+}
+.btn-C{
+    border-radius: 0.25rem/* 4px */;
+}
+
+@media (min-width: 1024px) {
+    .text_para{
+        margin-bottom: 4rem/* 64px */;
+    }
+}
+@media (min-width: 640px) {
+    .btn-C{
+        width: fit-content;
+    }
+    .msg-contact{
+        grid-column: span 2 / span 2;
+    }
+}
